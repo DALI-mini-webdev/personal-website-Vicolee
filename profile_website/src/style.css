@@ -1,3 +1,5 @@
+
+
 .red-text{
     color: red;            /* creating a class tag using "." */
 }
@@ -8,7 +10,7 @@
 }
 
 .site-background{
-    background-image: url("images/space.jpg");
+    background-image: url(space.jpg);
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
@@ -23,5 +25,30 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+}
+
+/* body {
+    background-image: url("images/space.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+} */
+
+.gallery{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+.gallery:hover {
+    border: 1px solid #777;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
 }
 
