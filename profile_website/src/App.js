@@ -1,5 +1,6 @@
 import './App.css';
 import './style.css';
+import Navbar from "./components/Navbar/Navbar";
 // import brunoball from './images/brunoball.JPG';
 // import brunochick from './images/brunochick.jpg';
 // import brunohaircut from './images/brunohaircut.jpg';
@@ -38,6 +39,9 @@ function App() {
   return (
     <div>
       <body>
+        <div className="App">
+          <Navbar />
+        </div>
         <div class="site-background">
           <div class="centered-text">
             <h1 style={font50}>{name} {dartClass}</h1>
